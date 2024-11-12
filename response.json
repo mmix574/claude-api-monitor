@@ -1,0 +1,18 @@
+HTTP/2 200 
+date: Tue, 12 Nov 2024 12:15:07 GMT
+content-type: application/json
+anthropic-ratelimit-requests-limit: 50
+anthropic-ratelimit-requests-remaining: 49
+anthropic-ratelimit-requests-reset: 2024-11-12T12:15:56Z
+anthropic-ratelimit-tokens-limit: 40000
+anthropic-ratelimit-tokens-remaining: 39000
+anthropic-ratelimit-tokens-reset: 2024-11-12T12:15:08Z
+request-id: req_012bvCTQjB2G63XbgeRuWhRe
+via: 1.1 google
+cf-cache-status: DYNAMIC
+x-robots-tag: none
+server: cloudflare
+cf-ray: 8e16720af8d0482e-SIN
+content-encoding: gzip
+
+{"id":"msg_01XConaoSuG4Q5aAaciYkgXf","type":"message","role":"assistant","model":"claude-3-5-sonnet-20241022","content":[{"type":"text","text":"让我通过终端查看当前日期。"},{"type":"tool_use","id":"toolu_01HeFjuw5xeQSn44naR9nK7R","name":"bash","input":{"command":"date"}}],"stop_reason":"tool_use","stop_sequence":null,"usage":{"input_tokens":4,"cache_creation_input_tokens":0,"cache_read_input_tokens":2097,"output_tokens":66}}
